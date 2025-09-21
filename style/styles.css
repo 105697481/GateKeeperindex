@@ -1,0 +1,135 @@
+.logo {
+  position: fixed;   /* dính cố định trên màn hình */
+  top: 0px;         /* khoảng cách với mép trên */
+  left: 0px;        /* khoảng cách với mép trái */
+  width: 80px;       /* kích thước logo */
+  height: auto;
+  z-index: 999;      /* đảm bảo nổi lên trên các phần khác */
+}
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+
+header, footer { 
+    background: #f4f4f4; 
+    padding: 5px; 
+    text-align: center; 
+}
+header h1 {
+    color: midnightblue;
+    margin-bottom: 5px;
+}
+header h1 a {
+  text-decoration: none;
+  color: inherit; /* keep the h1color */
+}
+header p {
+    font-style: italic;
+    color: skyblue;
+    margin-top: 0;
+}
+.nav-bar {
+    background-color: skyblue;
+    border-bottom: 1px solid #e5e5e5;
+    font-family: -apple-system, SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.4705882353;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 48px;
+}
+.nav-bar a {
+  color: #333;
+  text-decoration: none;
+  padding: 8px 0;
+  transition: color 0.2s;
+}
+.nav-bar a:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+/* Main content */
+.side-by-side {
+  display: flex;
+  flex-direction: column;   /* Stack children vertically */
+  align-items: stretch;     /* Stretch to container width */
+  gap: 48px;                /* Space between sections */
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+.hometext-content,
+.homeimage-content,
+.abouttext-content,
+.aboutimage-content,
+.servicetext-content,
+.serviceimage-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+  width: 100%;
+}
+.homeimage-content img,
+.aboutimage-content img,
+.serviceimage-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 16px;
+}
+/* ...... */
+
+nav ul { 
+    list-style: none; 
+    margin: 0; padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+nav a { 
+    text-decoration: none;
+     color: #333; 
+}
+
+main { 
+    max-width: 900px; 
+    margin: 20px auto; 
+    padding: 0 20px; 
+}
+.bottom-logo {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  width: 50px;      /* Shrink the logo */
+  height: auto;
+  z-index: 1;
+}
+footer {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    font-family: -apple-system, SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.4705882353;
+}
+footer a:hover {
+    color: white;
+}
+
