@@ -100,7 +100,6 @@ header p {
   border-radius: 12px;
   margin-top: 16px;
 }
-/* ...... */
 
 nav ul { 
     list-style: none; 
@@ -129,7 +128,6 @@ main {
 }
 footer {
     background-color: skyblue;
-    color: white;
     text-align: center;
     padding: 10px 0;
     position: relative;
@@ -138,6 +136,7 @@ footer {
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
+    letter-spacing: -.022em;
     line-height: 1.4705882353;
 }
 footer a{
