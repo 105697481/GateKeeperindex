@@ -40,6 +40,7 @@ header p {
     color: skyblue;
     margin-top: 0;
 }
+/* Navigation bar */
 .nav-bar {
     background-color: skyblue;
     border-bottom: 1px solid #e5e5e5;
@@ -119,14 +120,7 @@ main {
     margin: 20px auto; 
     padding: 0 20px; 
 }
-.bottom-logo {
-  position: absolute;
-  left: 20px;
-  bottom: 10px;
-  width: 50px;      /* Shrink the logo */
-  height: auto;
-  z-index: 1;
-}
+ /* Footer styles */
 footer {
     background-color: skyblue;
     text-align: center;
@@ -149,7 +143,7 @@ footer a:hover {
     color: blue;
 }
 
-/* Add this to your CSS file */
+/* Accessibility: Skip to main content link */
 .skip-link {
   position: absolute;
   left: -999px;
@@ -174,7 +168,7 @@ footer a:hover {
   font-size: 1rem;
   outline: 2px solid #0078d4;
 }
-/* Add or enhance focus styles */
+/* Add focus styles */
 a:focus, button:focus {
   outline: 2px solid #0078d4;
   outline-offset: 2px;
